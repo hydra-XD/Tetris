@@ -1,0 +1,175 @@
+body
+{
+    width: 97%;
+    height: 97%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.75em;
+    text-align: center;
+
+    background: #b255dd;
+    color: #212121;
+}
+
+canvas {
+    border: solid .2em white;
+    height: 84.5vh;
+}
+
+/*#scorebox
+{
+    width: 280px;
+    margin: 30px;
+    background-color: #000000;
+    border: 6px solid white;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: ;
+
+}
+
+#scorebox div
+{
+    width: 260px;
+    text-align: left;
+    position: relative;
+    margin: 3px;
+    font-size: 20;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #ffffff;
+} */
+
+#scorebox div .yellow
+{
+    text-align: right;
+    font-weight: bold;
+    color: #f1f514;
+    font-size: 20
+}
+
+#boxtext
+{
+  font-size: 20
+  
+}
+
+#nextbox
+{
+    margin: 30px;
+    background-color: #000000;
+    border: 6px solid white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    position: fixed;
+
+    top: 10%;
+    right: 23%;
+    transform: translateX(0%);
+
+}
+
+
+#pausebox
+{
+    margin: 30px;
+    background-color: #000000;
+    border: 6px solid white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    position: absolute;
+    transform: translateX(0%);
+    bottom: 58.5%;
+    left: 0%;
+}
+
+#pausebox div{
+    width: 80px;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    font-size: 15;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #ffffff;
+}
+
+#nextbox div
+{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    font-size: 25;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #ffffff;
+}
+
+#nextbox div .next
+{
+    text-align: right;
+    font-weight: bold;
+    color: #f1f514;
+}
+
+#holdbox
+{
+    margin: 30px;
+    background-color: #000000;
+    border: 6px solid white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    position: fixed;
+
+    top: 10%;
+    left: 20.5%;
+    transform: translateX(0%);
+
+}
+
+#holdbox div
+{
+    width: 110px;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    font-size: 25;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #ffffff;
+}
+
+#holdbox div .hold
+{
+    text-align: right;
+    font-weight: bold;
+    color: #f1f514;
+}
+
+#controlbox
+{
+    margin: 30px;
+    background-color: #000000;
+    border: 6px solid white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    transform: translateX(0%);
+
+}
+
+#controlbox div
+{
+    width: 350px;
+    text-align: left;
+    position: relative;
+    margin: 3px;
+    font-size: 17;
+    font-weight: bold;
+    font-family: Helvetica;
+    color:#ffffff;
+}

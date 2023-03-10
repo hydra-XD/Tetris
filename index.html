@@ -1,0 +1,57 @@
+<html charset="UTF-8">
+<meta charset="UTF-8" />
+<head>
+    <title> TETRIS </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="scorebox">
+        <div> <span id = "boxtext"> SCORE: </span><span id="score" class="yellow"> 0 </span> </div>
+        <div> <span id = "boxtext"> HIGH SCORE: </span><span id="highscore" class="yellow"> 0 </span> </div>
+        <div> <span id = "boxtext"> SPEED: </span><span id="speed" class ="yellow"> 0 </span></div>
+    </div>
+    <canvas id="tetris" width="200" height="400"></canvas>
+    <script src="tetris.js"></script>
+
+    <div id = "pausebox">
+      <div> <span id = "pausetext" class = "pause"> </span></div>
+    </div>
+    
+    <div id="nextbox">
+        <div> NEXT: <span id="nextpiece" class="next">temp</span></div>
+    </div>
+    
+    <div id="holdbox">
+        <div> HOLD: <span id="holdpiece" class="hold"></span></div>
+    </div>
+
+    <div id = "pausebox">
+      <div> <span id = "pstxt" class = "pause">UNPAUSED</span></div>
+    </div>
+
+  
+    <div id="controlbox">
+        <div> <b>CONTROLS:</b> </div>
+        <div> LEFT ARROW: Move Left </div>
+        <div> RIGHT ARROW: Move Right </div>
+        <div> DOWN ARROW: Soft Drop </div>
+        <div> SPACE: Hard Drop </div>
+        <div> Z/LCTRL: Rotate Left </div>
+        <div> X/UP ARROW: Rotate Right </div>
+        <div> LSHIFT/C: Hold Piece </div>
+        <div> ENTER: Toggle Pause </div>
+        <div> M: Toggle Music </div>
+        <div> ZERO: Reset </div>
+        <div> ONE: Slow Down </div>
+        <div> TWO: Speed Up</div>
+        <div> Original created by @matthyno</div>
+        <div> Modified by @hydraXD and @CoderJeff12</div>
+    </div>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="orange" defer></script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,4 @@
+if (isPaused !== true){
+      player.score += (2*speedtext)
+      updateScore();
+    }
